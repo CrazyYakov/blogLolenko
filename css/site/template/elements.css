@@ -1,0 +1,26 @@
+/*____---- window - send_question ----____*/
+.block__header{
+    background-color: #4d76a4;    
+    color: white;
+}
+/*форма*/
+.form__send{    
+    align-items: center;
+}
+.question textarea{
+    display:block;
+    width: 100%;
+    height:auto;
+    resize: none;
+}
+.btn__send{
+    border-radius: 20px;
+    height: 40px;
+    width: 151px;
+    background-color: #548cc5;
+    color: #fff;
+    transition: 0.3s;
+}
+.btn__send:hover{
+    background-color: #44678f;
+}

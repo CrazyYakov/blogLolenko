@@ -1,0 +1,248 @@
+/* Профиль */
+.profile{
+    background-color: white;
+    height: 150px;
+    margin-top: 30px;
+    display: block;
+}
+.box__profile{
+    border-radius: 4px;
+}
+div.profile div.row{
+    margin: 0;
+}
+.profile__img{
+	overflow:hidden;
+	float:left;
+    border:1px solid #ccc;
+    border-radius: 100%;
+    margin: 20px 20px 20px 0;
+}
+
+.img{
+    margin: 0px 0px -57px 0px;
+    height: 160px;    
+}
+
+.citation{
+    color: #828282;
+    font-size: .8em;
+}
+.profile__name{
+    margin-top: 40px;
+    width:100%;
+    
+}
+.profile__name, .citation{
+    margin-left: 40px;
+}
+.achievement{
+    position: relative;
+    top: 38px;
+    right: 10px;
+}
+.text-nmbr{
+    color: rgb(77, 118, 164);
+}
+.text__achievement{
+    font-size: .8em;
+    color: #828282;
+    margin-top: -10px;
+}
+.forma{
+    display: inline-block;
+    margin-top: 30px;
+}
+.form__btn{
+    border-radius: 20px;
+    height: 35px;
+    width: 170px;
+}
+.btn__bookmaker{
+    margin-bottom: 15px;
+    background-color: #548cc5;
+    color: #fff;
+    transform: .4s;
+}
+
+.btn__question{
+    margin: 0 auto;   
+    transform: .4s;
+}
+.form__btn:hover{
+    background-color: #44678f;
+    border: 1px solid #44678f;
+}
+.bar__main{
+    height: 50px;
+    background-color: #f4f8fb;
+    border-bottom: 1px solid #dbdfe2;
+}
+.bar__item{
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-top: 1em;   
+}
+.bar__item a{
+    color: #a9afaf;
+}
+.bar__item a:hover{
+    color: #828282;
+}
+li.bar__item.Active a{
+    color: #383c3f;
+    padding-bottom: 10px;
+    border-bottom:2px solid #6788a9;
+}
+hr{
+    border: 1px solid #6788a9;
+    
+}
+
+/***********************************************************/
+/************************* КОНТЕНТ *************************/
+/***********************************************************/
+
+.content{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    height: auto;
+}
+.content__column{
+    column-count: 2;
+}
+.record{    
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+}
+.post__record{
+    padding: 15px;
+    padding-bottom: 0px;
+    background-color: white;
+}
+.content__profile{
+    padding: 0px;
+}
+.content__profile p.profile__img{
+    margin: -10px 10px 0 0;
+    
+}
+img.content__img{
+    margin: 0px 0px -30px 0px;
+    height: 90px; 
+}
+h6.content__name{
+    margin-top: 10px;
+    color: #a5b2c5;
+    margin-bottom: 0%;
+}
+p.content__time{
+    font-size: 15px;
+    color: #c3c3c3;
+}
+.content__post-record{
+    margin-top: 35px;
+}
+.content__post-field{
+    padding: 15px;
+}
+
+
+.content__wrap{
+    padding-top: 10px;
+    background-color: white;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-top: solid 2px #e7e8ec ;
+    padding: 10px 15px;
+    
+}
+
+.wrap__like{
+    display: flex;
+    
+}
+.wrap__like i{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.like__count{
+    margin-left: 8px;
+}
+.content__load{
+    margin-top: 35px;
+}
+.comments{
+    margin: 0 15px;
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+}
+.comment__record{
+    font-size: 15px;
+    color: #c3c3c3;
+    border-top: solid 2px #e7e8ec ;
+}
+.comment__profile{
+    padding: 0px;
+    display: flex;
+}
+.img__comment{
+    height: 50px;
+    width: 50px;
+}
+.img__comment{
+
+}
+.comment__name{
+    margin-top: 10px;
+    color: #a5b2c5;
+    margin-bottom: 0%;
+}
+.name__time{
+    margin-left: 10px;
+}
+@media screen  and (max-width:992px){
+
+    .achievement{
+        display: none;
+    }
+    .content__column{
+        column-count: auto;
+    }
+    .form__btn{
+        width: 151px;
+    }
+}
+
+
+@media screen  and (max-width:768px){
+
+    .form__btn{
+        display: none;
+    }
+    .block__forma{
+        display: none;
+    }
+    .bar__item{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .content__column{
+        width: auto;
+        column-count: auto;
+    }
+    .record{
+        width: auto;
+        display: block;
+    }
+}
+/***********************************************************/
+/************************* Friends *************************/
+/***********************************************************/
+
+.Friend__avatar{
+    height: 160px;
+}

@@ -1,0 +1,138 @@
+/*nav bar menu*/
+
+.header{
+    background: #4d76a4;
+}
+.navbar__main{
+    padding-top: 6px;
+}
+h3.navbar__title{
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fdfeff;
+}
+.navbar__item a{
+    margin-right: 15px;
+    color: #fdfeff;
+    padding: 2px 0 0 0;
+}
+.navbar__item a:hover{
+    color: #2f4966;
+
+}
+.navbar__search {
+    display: inline-block;
+}
+.navbar__search input{
+    background-color: #6386ae;
+    color: #fdfeff;
+    border: none;
+    border-radius: 12px;
+    padding: 0 0 0 1.6em;
+    height: inherit;
+    
+}
+.navbar__search input:focus{
+    background-color: white;
+    color: black;
+}
+    
+.navbar__search i{
+    pointer-events: none;
+    color: #b4cadf;   
+    position: relative;
+    left: -90%;
+}
+button.navbar-toggler{
+    background-color: #2f4966;
+}
+
+/*admin bar menu*/
+
+.adminbar{
+    height: 45px;
+    background-color: #ffffff;
+    border-bottom: solid 1px #e7e8ea;
+    border-top: solid 1px #3f5974;
+}
+.adminbar__main{
+    margin-top: 4px;
+}
+.adminbar__item a{
+    margin-right: 50px;
+    color: #a9afaf;
+    padding: 2px 0 0 0;
+}
+.adminbar__item a:hover{
+    color: #cf0a0a;
+}
+.adminbar__menu{
+    margin-top: 10px;
+}
+.adminbar__menu-icons{
+    
+    float: right;
+}
+
+.adminbar__icon{
+    margin-right: 25px;
+    color: #a3b0c3;
+    padding: 2px 0 0 0;
+}
+.adminbar__icon i:hover{
+    color: #cf0a0a;
+}
+.adminbar__icon a{
+    color: #a9afaf;
+    content: normal;
+}
+.notification{
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    background-color: #e06043;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    font-size: .8em;
+    position: relative;
+    bottom: .5em;
+    right: 1em;
+    line-height: 14px;
+}   
+
+/*adaption*/
+@media screen  and (max-width:992px){
+    .navbar__menu{
+        flex-wrap: nowrap;
+    }
+    .navbar__search input{
+        margin-bottom: -20px;
+    }
+    .navbar__search i{
+        left: 4%;
+        top: -14px;
+    }
+    
+}
+@media screen  and (max-width:768px){
+
+    .navbar__search input{
+        margin-bottom: 0;
+    }
+    .navbar__search i{
+        left: -90%;
+        top: auto !important;
+    }
+
+    .adminbar__item a{
+        margin-right: 20px;
+    }
+    .adminbar__menu-icons{
+        float: none;
+    }    
+    .notification{
+        right: -1em;
+        bottom: 2.5em;
+    }
+}

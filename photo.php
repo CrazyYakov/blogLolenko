@@ -1,4 +1,7 @@
-<?php require_once("/var/www/html/layout/header.php"); ?>
+<?php 
+  require_once("/var/www/html/layout/header.php"); 
+  require_once("/var/www/html/layout/bar.php"); 
+?>
   
  
   <!--Контент начало-->

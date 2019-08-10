@@ -1,9 +1,22 @@
-<?php require_once("/var/www/html/layout/header.php"); ?>
+<?php require_once("/var/www/html/layout/header.php"); 
+      require_once("/var/www/html/layout/bar.php");   
+?>
   <!--Контент начало-->
    <section >
     <div class="container">
-      <div class="content">
-       
+      <div class="content d-flex flex-wrap align-content-center">
+          
+            <div class="content__post-field  justify-content-center ">
+              <a href="">
+                <img class="img-thumbnail post__img d-inline-flex img__video" src="img/content/video.jpg" alt="">  
+              </a>
+              <div class="content__wrap border-top d-flex ">
+                  <a href="" class="wrap__like"> 
+                     <i class="fa fa-heart "></i>
+                     <div class="like__count">103</div>
+                  </a>
+                  </div>         
+            </div>               
       </div>
       <div class="content__load">
         <div id="floatingCirclesG">

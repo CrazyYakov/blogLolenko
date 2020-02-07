@@ -153,12 +153,14 @@ p.content__time{
 .img__video{
     width: 50%;
 }
-.img__video:hover{
-    background-color: #383c3f;
-    opacity: 0.5;
-    background-image: url(/img/content/play.png);
-    z-index: 99;
-}
+/* .img__video:hover{
+    /* background-color: #383c3f; */
+    /* opacity: 0.5; */
+    /* background-image: url(/img/content/play.png); 
+    border: 20px solid transparent; 
+    border-left: 20px solid green;
+    /* z-index: 99; 
+} */
 .content__wrap{
     padding-top: 10px;
     background-color: white;
